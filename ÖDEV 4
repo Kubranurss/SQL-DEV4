@@ -1,0 +1,12 @@
+1.SORU
+select distinct replacement_cost from film 
+2.SORU
+select count(distinct replacement_cost) from film 
+3.SORU
+select count (distinct title ) from film where title ~~* 't%' and rating = 'G'
+4,SORU
+select count(distinct country) from country where country ~~ '_____'                
+select count(distinct country) from country where country like '_____'
+5.SORU
+select count(distinct city) from city where city ilike '%r'
+select count(distinct city) from city where city ~~* '%r'
